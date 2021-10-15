@@ -7,5 +7,10 @@
 
 import Foundation
 
-print("Hello, World!")
+let my💀 = EnemyClass()
+let my🐲 = Dragon()
+print(my💀.move())
+print(my💀.attack())
+print(my🐲.attack())
+
 
