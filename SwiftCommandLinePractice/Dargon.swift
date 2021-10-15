@@ -10,7 +10,7 @@ import Foundation
 class Dragon : EnemyClass{
     
     override func attack(){
-        super.attackStrength = 50
+        
         print("Dragon attack \(attackStrength) 🐲 ")
     }
 }

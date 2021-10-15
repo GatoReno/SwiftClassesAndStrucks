@@ -1,12 +1,12 @@
 //
-//  EnemyClass.swift
+//  EnemyStruct.swift
 //  SwiftCommandLinePractice
 //
 //  Created by ed on 10/15/21.
 //
 
 import Foundation
-class EnemyClass
+struct EnemyStruct
 {
     var health : Int
     var attackStrength : Int
@@ -14,10 +14,10 @@ class EnemyClass
     init(health: Int,attackStrength: Int)
     {
         self.health = health
-        self.attackStrength = attackStrength        
+        self.attackStrength = attackStrength
     }
     
-    func takeDamage(damage: Int){
+    mutating func takeDamage(damage: Int){
         health = health - damage
         if(health <= 0){
             print("unit Dead 🪦")
@@ -32,3 +32,4 @@ class EnemyClass
     }
     
 }
+

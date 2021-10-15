@@ -7,8 +7,8 @@
 
 import Foundation
 
-let my💀 = EnemyClass()
-let my🐲 = Dragon()
+let my💀 = EnemyClass(health:50,attackStrength:10)
+let my🐲 = Dragon(health:500,attackStrength:100)
 print(my💀.move())
 print(my💀.attack())
 print(my🐲.attack())

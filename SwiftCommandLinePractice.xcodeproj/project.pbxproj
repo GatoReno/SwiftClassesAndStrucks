@@ -10,6 +10,7 @@
 		64119A81271A1B8F008E3D6E /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64119A80271A1B8F008E3D6E /* main.swift */; };
 		64119A88271A1C88008E3D6E /* EnemyClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64119A87271A1C88008E3D6E /* EnemyClass.swift */; };
 		64119A8A271A2389008E3D6E /* Dargon.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64119A89271A2389008E3D6E /* Dargon.swift */; };
+		64119A8C271A29BD008E3D6E /* EnemyStruct.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64119A8B271A29BD008E3D6E /* EnemyStruct.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -29,6 +30,7 @@
 		64119A80271A1B8F008E3D6E /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
 		64119A87271A1C88008E3D6E /* EnemyClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EnemyClass.swift; sourceTree = "<group>"; };
 		64119A89271A2389008E3D6E /* Dargon.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Dargon.swift; sourceTree = "<group>"; };
+		64119A8B271A29BD008E3D6E /* EnemyStruct.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EnemyStruct.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -64,6 +66,7 @@
 				64119A80271A1B8F008E3D6E /* main.swift */,
 				64119A87271A1C88008E3D6E /* EnemyClass.swift */,
 				64119A89271A2389008E3D6E /* Dargon.swift */,
+				64119A8B271A29BD008E3D6E /* EnemyStruct.swift */,
 			);
 			path = SwiftCommandLinePractice;
 			sourceTree = "<group>";
@@ -129,6 +132,7 @@
 				64119A81271A1B8F008E3D6E /* main.swift in Sources */,
 				64119A8A271A2389008E3D6E /* Dargon.swift in Sources */,
 				64119A88271A1C88008E3D6E /* EnemyClass.swift in Sources */,
+				64119A8C271A29BD008E3D6E /* EnemyStruct.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
